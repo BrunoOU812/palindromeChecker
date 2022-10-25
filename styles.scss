@@ -1,0 +1,91 @@
+.material-symbols-rounded {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 700,
+  'GRAD' 200,
+  'opsz' 48
+}
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'montserrat';
+  &__answer{
+    display: flex;
+    justify-content: space-between;
+    width:12vw;
+    // flex-direction: column;
+    align-items: center;
+  }
+  &__button {
+  }
+  &__container {
+    box-sizing: border-box;
+    display: flex;
+    padding: 2vw 5vw;
+    align-items: center;
+    // justify-content: space-around;
+    justify-content: space-between;
+    background-color: rgba(#ffe, 1);
+    border-radius: 2vw;
+    border: 2px solid #ffe;
+    width: 50vw;
+    // height: 40vh;
+  }
+  &__circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    $size:5vw;
+    // border-radius: 50%;
+    // border:0.5vw solid #f50;
+    width: $size;
+    height: $size;
+    &--close{
+      border-radius: 50%;
+      border:0.5vw solid #f50;
+    }    
+    &--done{
+      border-radius: 50%;
+      border:0.5vw solid #0f5;
+    }
+  }
+  &__displaybox {
+  }
+  &__h1 {
+    color: #f50;
+    font-size: 4vw;
+    font-family: 'Black Ops One', cursive;
+    font-weight: 100;
+    text-transform: uppercase;
+    // filter: invert(50%);
+  }
+  &__img{
+    box-sizing: border-box;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    filter: saturate(60%);
+  }
+  &__input {
+  }
+  &__inputbox {
+  }
+  &__p {
+  }
+  &__span{
+    font-size: 5vw;
+    &--close{
+        color: #f50;
+    }    
+    &--done{
+      color: #0f5;
+  }
+  }
+  &__trueorfalse{
+    font-size: 2vw;
+  }
+}

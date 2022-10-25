@@ -1,0 +1,97 @@
+.material-symbols-rounded {
+  font-variation-settings: "FILL" 0, "wght" 700, "GRAD" 200, "opsz" 48;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "montserrat";
+}
+.header__answer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 12vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__container {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2vw 5vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #ffffee;
+  border-radius: 2vw;
+  border: 2px solid #ffe;
+  width: 50vw;
+}
+.header__circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 5vw;
+  height: 5vw;
+}
+.header__circle--close {
+  border-radius: 50%;
+  border: 0.5vw solid #f50;
+}
+.header__circle--done {
+  border-radius: 50%;
+  border: 0.5vw solid #0f5;
+}
+.header__h1 {
+  color: #f50;
+  font-size: 4vw;
+  font-family: "Black Ops One", cursive;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.header__img {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  -webkit-filter: saturate(60%);
+          filter: saturate(60%);
+}
+.header__span {
+  font-size: 5vw;
+}
+.header__span--close {
+  color: #f50;
+}
+.header__span--done {
+  color: #0f5;
+}
+.header__trueorfalse {
+  font-size: 2vw;
+}
